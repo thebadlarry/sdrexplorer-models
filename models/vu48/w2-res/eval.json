@@ -1,0 +1,75 @@
+{
+ "backend": "onnx",
+ "synth": {
+  "overall": 0.938,
+  "per_class": {
+   "noise": 1.0,
+   "NBFM": 0.785,
+   "P25-P1": 0.88,
+   "DMR": 0.84,
+   "NXDN48": 0.995,
+   "NXDN96": 0.925,
+   "AX25-1200": 1.0,
+   "AX25-9600": 1.0,
+   "POCSAG": 0.96,
+   "carrier": 0.995,
+   "other": 0.875,
+   "FLEX": 1.0,
+   "SmartNet": 0.985,
+   "EDACS": 0.995,
+   "EDACS-V": 0.835
+  }
+ },
+ "real": {
+  "overall": 0.9778,
+  "n": 3516,
+  "per_class": {
+   "noise": 1.0,
+   "NBFM": 0.907,
+   "P25-P1": 0.992,
+   "DMR": 0.991,
+   "NXDN48": 0.935,
+   "NXDN96": 0.997,
+   "FLEX": 0.986
+  },
+  "per_class_n": {
+   "noise": 552,
+   "NBFM": 589,
+   "P25-P1": 364,
+   "DMR": 1266,
+   "NXDN48": 46,
+   "NXDN96": 341,
+   "FLEX": 358
+  },
+  "recordings": 18
+ },
+ "real_train_recs": {
+  "overall": 0.9973,
+  "n": 28346,
+  "per_class": {
+   "noise": 1.0,
+   "NBFM": 0.994,
+   "P25-P1": 0.998,
+   "DMR": 0.998,
+   "NXDN48": 0.983,
+   "NXDN96": 0.999,
+   "POCSAG": 0.925,
+   "carrier": 1.0,
+   "FLEX": 0.999,
+   "SmartNet": 0.997
+  },
+  "per_class_n": {
+   "noise": 3864,
+   "NBFM": 2782,
+   "P25-P1": 4234,
+   "DMR": 3643,
+   "NXDN48": 411,
+   "NXDN96": 4911,
+   "POCSAG": 416,
+   "carrier": 3588,
+   "FLEX": 3463,
+   "SmartNet": 1034
+  },
+  "recordings": 192
+ }
+}

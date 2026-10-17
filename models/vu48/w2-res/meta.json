@@ -1,0 +1,41 @@
+{
+ "profile": "vu48",
+ "version": "w2-res",
+ "arch": "res",
+ "fs": 48000,
+ "L": 4096,
+ "classes": [
+  "noise",
+  "NBFM",
+  "P25-P1",
+  "DMR",
+  "NXDN48",
+  "NXDN96",
+  "AX25-1200",
+  "AX25-9600",
+  "POCSAG",
+  "carrier",
+  "other",
+  "FLEX",
+  "SmartNet",
+  "EDACS",
+  "EDACS-V"
+ ],
+ "display": {
+  "NBFM": "NFM",
+  "P25-P1": "P25",
+  "AX25-1200": "AX25 1k2",
+  "AX25-9600": "AX25 9k6",
+  "other": "?",
+  "SmartNet": "SmartNet CC",
+  "EDACS": "EDACS CC",
+  "EDACS-V": "EDACS voice"
+ },
+ "bands": {},
+ "route_bw": [
+  14000,
+  40000
+ ],
+ "real": true,
+ "created": "2026-10-09"
+}

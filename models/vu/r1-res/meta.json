@@ -1,0 +1,33 @@
+{
+ "profile": "vu",
+ "version": "r1-res",
+ "arch": "res",
+ "fs": 24000,
+ "L": 4096,
+ "classes": [
+  "noise",
+  "NBFM",
+  "P25-P1",
+  "DMR",
+  "NXDN48",
+  "NXDN96",
+  "AX25-1200",
+  "AX25-9600",
+  "POCSAG",
+  "carrier",
+  "other",
+  "FLEX",
+  "SmartNet"
+ ],
+ "display": {
+  "NBFM": "NFM",
+  "P25-P1": "P25",
+  "AX25-1200": "AX25 1k2",
+  "AX25-9600": "AX25 9k6",
+  "other": "?",
+  "SmartNet": "SmartNet CC"
+ },
+ "bands": {},
+ "real": true,
+ "created": "2026-10-08"
+}
